@@ -1,4 +1,4 @@
-package ru.vsu.cs.sorokin.homework1.task1;
+package ru.vsu.cs.sorokin.task1;
 
 import java.util.Scanner;
 

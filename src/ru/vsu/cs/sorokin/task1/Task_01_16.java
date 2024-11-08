@@ -1,4 +1,4 @@
-package ru.vsu.cs.sorokin.homework1.task1;
+package ru.vsu.cs.sorokin.task1;
 
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class Task_01_16 {
         a = c - b - a; // a = первоначальное значение b
         c = c - b - a; // c = первоначальное значение a
 
-        System.out.printf("A->B: %.2f1\n B->C: %.2f2\n C->A: %.2f3", a, b, c);
+        System.out.printf("A->B: %.2f\n B->C: %.2f\n C->A: %.2f", a, b, c);
     }
 
 }

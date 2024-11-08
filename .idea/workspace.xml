@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c4e329-1eee-428b-97b3-9a519d119f0c" name="Changes" comment="complete 1 task">
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/control/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/control/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task2/Task_02_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task2/Task_02_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/HorizontalParabola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/SimpleColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/Task_03_47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task3/VerticalParabola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task4/Task_04_27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task4/Task_04_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task5/Task_05_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task7/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task7/Task_07_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task7/Task_07_23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/homework1/task1/Task_01_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task1/Task_01_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/homework1/task1/Task_01_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task1/Task_01_24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,35 +62,141 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_01_16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task_01_24.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/nikita/Study/algo_tasks/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task_01_16.executor": "Run",
+    "Application.Task_01_24.executor": "Run",
+    "Application.Task_02_03.executor": "Run",
+    "Application.Task_02_20.executor": "Run",
+    "Application.Task_03_47.executor": "Run",
+    "Application.Task_04_27.executor": "Run",
+    "Application.Task_04_3.executor": "Run",
+    "Application.Task_05_14.executor": "Run",
+    "Application.Task_07_14.executor": "Run",
+    "Application.Task_07_23.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nikita/Study/algo_tasks/src/ru/vsu/cs/sorokin/task7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/nikita/Study/algo_tasks/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Task_01_24">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ru/vsu/cs/sorokin/task7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ru/vsu/cs/sorokin" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task_04_27">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.control.Task2" />
+      <module name="algo_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.sorokin.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_01_16" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.homework1.task1.Task_01_16" />
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task1.Task_01_16" />
       <module name="algo_tasks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Task_01_24" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.homework1.task1.Task_01_24" />
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task1.Task_01_24" />
       <module name="algo_tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_02_03" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task2.Task_02_03" />
+      <module name="algo_tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_02_20" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task2.Task_02_20" />
+      <module name="algo_tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_03_47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task3.Task_03_47" />
+      <module name="algo_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.sorokin.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_04_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task4.Task_04_27" />
+      <module name="algo_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.sorokin.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_04_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task4.Task_04_3" />
+      <module name="algo_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.sorokin.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_05_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.sorokin.task5.Task_05_14" />
+      <module name="algo_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.sorokin.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,13 +204,29 @@
     <list>
       <item itemvalue="Application.Task_01_16" />
       <item itemvalue="Application.Task_01_24" />
+      <item itemvalue="Application.Task_02_20" />
+      <item itemvalue="Application.Task_02_03" />
+      <item itemvalue="Application.Task_04_27" />
+      <item itemvalue="Application.Task_04_3" />
+      <item itemvalue="Application.Task2" />
+      <item itemvalue="Application.Task_05_14" />
+      <item itemvalue="Application.Task_03_47" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task_04_27" />
+        <item itemvalue="Application.Task_04_3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task_03_47" />
+        <item itemvalue="Application.Task_05_14" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -99,6 +240,31 @@
       <updated>1726168962457</updated>
       <workItem from="1726168963861" duration="11210000" />
       <workItem from="1726229598580" duration="131000" />
+      <workItem from="1726230010629" duration="759000" />
+      <workItem from="1726234679345" duration="11840000" />
+      <workItem from="1726736819380" duration="11341000" />
+      <workItem from="1726781431921" duration="620000" />
+      <workItem from="1726849575016" duration="4718000" />
+      <workItem from="1726884402024" duration="67000" />
+      <workItem from="1726885822954" duration="642000" />
+      <workItem from="1727296837843" duration="447000" />
+      <workItem from="1727297313707" duration="3032000" />
+      <workItem from="1727367648708" duration="11966000" />
+      <workItem from="1727451584695" duration="4682000" />
+      <workItem from="1727894932559" duration="5303000" />
+      <workItem from="1727962590767" duration="466000" />
+      <workItem from="1728056836905" duration="6392000" />
+      <workItem from="1728582184084" duration="9597000" />
+      <workItem from="1728661271691" duration="10775000" />
+      <workItem from="1729227649605" duration="6750000" />
+      <workItem from="1729247267955" duration="1068000" />
+      <workItem from="1729266710382" duration="4456000" />
+      <workItem from="1729271344739" duration="472000" />
+      <workItem from="1729852873688" duration="454000" />
+      <workItem from="1729871505726" duration="1644000" />
+      <workItem from="1730475340495" duration="6032000" />
+      <workItem from="1731061078304" duration="18000" />
+      <workItem from="1731061113572" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="complete 1 task">
       <option name="closed" value="true" />
@@ -108,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726181619862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete 1 task">
+      <option name="closed" value="true" />
+      <created>1726230161397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726230161397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +291,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete 1 task" />
     <option name="LAST_COMMIT_MESSAGE" value="complete 1 task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
